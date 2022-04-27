@@ -1,0 +1,9 @@
+.offer__website {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .offer__website {
+    margin: 0px 16px;
+  }
+}

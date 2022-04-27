@@ -1,0 +1,14 @@
+.offer__adress {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition:  0.2s ease-in;
+}
+
+.offer__adress:hover {
+  opacity: 0.8;
+  transition:  0.2s ease-in;
+}

@@ -4,5 +4,10 @@
   font-size: 100px;
   line-height: 76px;
   color: #FFFFFF;
-  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__title {
+    font-size: 30px;
+  }
 }

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./style.css">
   <title>russian-travel</title>
 </head>
 
@@ -18,16 +19,10 @@
       <nav">
         <ul class="header__links">
           <li class="header__item">
-            <a class="header__link" href="#" data-scroll="#presentation">О нас</a>
-          </li>
-          <li class="header__item">
             <a class="header__link" href="#" data-scroll="#portfolio">Услуги</a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#" data-scroll="#videoblog">Работы</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#" data-scroll="#backstage">Backstage</a>
+            <a class="header__link" href="#" data-scroll="#videoblog">Проекты</a>
           </li>
           <li class="header__item">
             <a class="header__link" href="#" data-scroll="#contact">Контакты</a>
@@ -44,7 +39,7 @@
         </div>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Наша Миссия</h2>
+        <h2 class="intro__title title">Наша Миссия</h2>
         <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus quasi ab, error
           eveniet numquam vel iste, laboriosam hic deserunt cupiditate aspernatur animi. Delectus, aspernatur quod.
           Necessitatibus voluptates ipsum enim!Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus
@@ -54,7 +49,7 @@
         </p>
       </section>
       <section class="offers">
-        <h2 class="offers__title">Что мы делаем</h2>
+        <h2 class="offers__title title">Что мы делаем</h2>
         <article class="offer">
           <h2 class="offer__title">Рекламные видео</h2>
           <div class="offer__website">
@@ -124,8 +119,57 @@
           </div>
         </article>
       </section>
+      <section class="portfolio">
+        <h2 class="portfolio__title title">Наши работы</h2>
+        <div class="slider">
+          <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+          <input type="radio" name="slider" title="slide2" class="slider__nav" />
+          <input type="radio" name="slider" title="slide3" class="slider__nav" />
+          <input type="radio" name="slider" title="slide4" class="slider__nav" />
+          <input type="radio" name="slider" title="slide5" class="slider__nav" />
+          <input type="radio" name="slider" title="slide6" class="slider__nav" />
+          <div class="slider__inner">
+            <div class="slider__contents">
+              <iframe class="slider__frame" src="https://www.youtube.com/embed/ZPJZz3eBGyU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__contents">
+              <iframe class="slider__frame" src="https://www.youtube.com/embed/WvCyDIo2a1w" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__contents">
+              <iframe class="slider__frame" src="https://www.youtube.com/embed/kgrT5E6kjSM" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__contents">
+              <iframe class="slider__frame" src="https://www.youtube.com/embed/i1EIipkvb6A" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__contents">
+              <iframe class="slider__frame" src="https://www.youtube.com/embed/JQ2kHCNZNMM" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__contents">
+              <iframe class="slider__frame" src="https://www.youtube.com/embed/qktX_X2HHG4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="photo-grid">
-        <h2 class="photo-grid__title">Backstage</h2>
+        <h2 class="photo-grid__title title">Backstage</h2>
         <div class="photo-grid__body">
           <img class="photo-grid__item" src="./images/workprocess_1.png" alt="Backstage">
           <img class="photo-grid__item" src="./images/workprocess_2.png" alt="Backstage">

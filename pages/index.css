@@ -71,11 +71,10 @@
 @import url(../blocks/offer/__url/offer__url.css);
 @import url(../blocks/offer/__website/offer__website.css);
 
-/* cover */
+/* portfolio */
 
-@import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
 
 /* footer */
 
@@ -83,4 +82,9 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* title */
+
+@import url(../blocks/title/title.css);
+
 

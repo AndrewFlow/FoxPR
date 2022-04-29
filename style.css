@@ -122,15 +122,20 @@
 
 
 
-.plite-grid {
-  max-width: 830px;
-  margin: 0 auto;
+
+
+.plate-grid {
   display: grid;
   grid-template-columns: 400px 400px;
   grid-template-rows: 400px 400px;
   gap: 30px;
 }
-.plite__item {
+
+.commercial {
+  max-width: 830px;
+  margin: 0 auto;
+}
+.plate__item {
   max-width: 100%;
   max-height:100%;
   width: 100%;
@@ -149,9 +154,75 @@
   color: aliceblue;
   font-size: 40px;
   margin: 0;
-  top: 60%;
-  left: 10%;
+  top: 50%;
+  left: 20%;
 }
+
+.box-1 {
+  margin-top: 25px;
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+
+.btn-one {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.btn-one span {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+.btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-one:hover::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}
+
 
 
 
@@ -161,22 +232,28 @@
     width: 700px;
     height: 500px;
   }
-  .plite-grid {
-    margin: 0px 15px;
+  .plate-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
   .plate__title {
-    font-size: 25px;
+    font-size: 30px;
+    max-width: 150px;
+  }
+  .commercial {
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 767px) {
   .slider__frame {
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 350px;
+    margin: 0px 15px 0px;
   }
 }
+
 
 
 
@@ -200,4 +277,12 @@
     outline-color: #C850C0;
     box-shadow: 0 0 0 0 #C850C0, 0 0 0 0 rgba(51, 51, 51, 0);
   }
+}
+
+@media screen and (max-width: 401px) {
+
+  .plate-grid {
+    margin: 0 30px;
+  }
+
 }

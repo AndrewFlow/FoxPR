@@ -154,8 +154,9 @@
   color: aliceblue;
   font-size: 40px;
   margin: 0;
-  top: 50%;
-  left: 20%;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .box-1 {

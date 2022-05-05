@@ -48,4 +48,5 @@
 .body {
   background-image: linear-gradient( 109.6deg,  #090979 11.2%, #9006a1 53.7%, #00d4ff 100.2% );
   font-family: 'Bender',sans-serif;
+  min-width: 320px;
 }
